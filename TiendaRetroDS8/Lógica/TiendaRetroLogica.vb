@@ -9,4 +9,11 @@
         tiendaRetroQuery.RegistrarUsuario(username, email, password)
     End Sub
 
+    Public Function ObtenerConsolas() As DataTable
+        Return tiendaRetroQuery.ObtenerConsolas()
+    End Function
+    Public Function ObtenerVideojuegos() As DataTable
+        Return tiendaRetroQuery.ObtenerVideojuegos()
+    End Function
+
 End Class

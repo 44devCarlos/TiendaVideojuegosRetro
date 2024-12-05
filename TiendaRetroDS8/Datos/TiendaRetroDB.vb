@@ -39,12 +39,31 @@ Public Class TiendaRetroDB
         End Using
     End Sub
 
-    Public Function ObtenerConsolas() As DataSet
-        Dim dt As New DataSet()
+    Public Function ObtenerConsolas() As DataTable
+        Dim dt As New DataTable()
         Try
             Using connection As New MySqlConnection(connectionString)
                 ' Crear el comando para ejecutar el procedimiento almacenado
                 Dim command As New MySqlCommand("VerConsolas", connection)
+                command.CommandType = CommandType.StoredProcedure
+
+                ' Usar MySqlDataAdapter para llenar el DataTable con los resultados
+                Dim adapter As New MySqlDataAdapter(command)
+
+                connection.Open()
+                adapter.Fill(dt)
+            End Using
+        Catch ex As Exception
+            Throw New Exception("Error al obtener las consolas: " & ex.Message)
+        End Try
+        Return dt
+    End Function
+    Public Function ObtenerVideojuegos() As DataTable
+        Dim dt As New DataTable()
+        Try
+            Using connection As New MySqlConnection(connectionString)
+                ' Crear el comando para ejecutar el procedimiento almacenado
+                Dim command As New MySqlCommand("VerVideojuegos", connection)
                 command.CommandType = CommandType.StoredProcedure
 
                 ' Usar MySqlDataAdapter para llenar el DataTable con los resultados

@@ -1,11 +1,6 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Login.aspx.vb" Inherits="TiendaRetroDS8.Login" %>
 
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title>Iniciar Sesión</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
-    <style>
+/* BEGIN EXTERNAL SOURCE */
+
         body {
             min-height: 100vh;
             background-color: #5C3131;
@@ -15,7 +10,7 @@
             justify-content: center;
         }
 
-        /* Animación de entrada */
+        /* Animaci�n de entrada */
         @keyframes slideIn {
             0% {
                 transform: translateY(50px);
@@ -27,7 +22,7 @@
             }
         }
 
-        /* Animación del logo */
+        /* Animaci�n del logo */
         @keyframes bounce {
             0%, 100% {
                 transform: translateY(0);
@@ -44,6 +39,7 @@
             border-radius: 10px;
             background-color: #ffffff;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
             animation: slideIn 0.6s ease-out;
         }
 
@@ -97,38 +93,11 @@
             text-decoration: underline;
             color: #3698a6;
         }
-        .img-logo{
-            text-align: center;
-        }
+
         .logo {
             max-width: 150px;
             margin-bottom: 20px;
             animation: bounce 1.5s infinite;
         }
-    </style>
-</head>
-<body>
-    <form id="form1" runat="server">
-        <div class="container">
-            <div class="login-card">
-                <div class="img-logo">
-                    <img src="Imagen/DondeMacre-sinfondo.png" alt="Logo de la Tienda de Videojuegos Retro" class="logo" />
-                </div>
-                <h2>Iniciar Sesión</h2>
-                <div class="form-group">
-                    <label for="txtEmail">Correo</label>
-                    <input type="text" id="txtEmail" runat="server" class="form-control" placeholder="Ingrese su correo" required />
-                </div>
-                <div class="form-group">
-                    <label for="txtPassword">Contraseña</label>
-                    <input type="password" id="txtPassword" runat="server" class="form-control" placeholder="Ingrese su contraseña" required />
-                </div>
-                <button type="submit" class="btn btn-primary btn-block">Iniciar Sesión</button>
-                <a href="Registro.aspx" class="register-link">¿No tienes cuenta? Regístrate aquí</a>
-                <a href="Catalogo.aspx" class="btn btn-secondary btn-block mt-3">Ir al Catálogo</a>
-                <asp:Label ID="lblError" runat="server" ForeColor="Red" />
-            </div>
-        </div>
-    </form>
-</body>
-</html>
+    
+/* END EXTERNAL SOURCE */

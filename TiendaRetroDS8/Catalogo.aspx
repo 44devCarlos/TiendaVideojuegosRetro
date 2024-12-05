@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Catálogo - Tienda Online SALMON CLUB</title>
+    <title>Catálogo - Tienda Retro Donde Macre</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
     <style>
@@ -44,6 +44,23 @@
     .navbar .nav-link {
         color: #2C3E50 !important;
         font-weight: bold;
+    }
+    .tabs {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+    .tab {
+        padding: 10px 20px;
+        background-color: #ccc;
+        cursor: pointer;
+        margin-right: 10px;
+    }
+
+    .tab.active {
+        background-color: #333;
+        color: #fff;
     }
 
     h2 {
@@ -98,11 +115,11 @@
             <div class="d-flex flex-column flex-md-row align-items-center justify-content-between">
                 <!-- Logo -->
                 <div class="d-flex align-items-center">
-                    <img src="Imagen/logoSalmon.jpg" alt="Donde Macre" />
+                    <img src="Imagen/DondeMacreLogo.png" alt="Donde Macre" />
                     <h1 class="m-0">Donde Macre</h1>
                 </div>
                 <!-- Títulos -->
-                <h3 class="mt-3 mt-md-0">Catálogo de Productos</h3>
+                <h3 class="mt-3 mt-md-0">Videojuegos Retro</h3>
             </div>
         </header>
 
@@ -143,8 +160,8 @@
 
         <!-- Tabs to toggle between Consolas and Videojuegos -->
         <div class="tabs">
-            <div class="tab active" id="tabConsolas" onclick="showTab('consolas')">Consolas</div>
-            <div class="tab" id="tabVideojuegos" onclick="showTab('videojuegos')">Videojuegos</div>
+            <div class="tab active" id="tabConsolas" onclick="ShowTab('consolas')">Consolas</div>
+            <div class="tab" id="tabVideojuegos" onclick="ShowTab('videojuegos')">Videojuegos</div>
         </div>
 
         <div id="consolas" class="container">
@@ -154,18 +171,18 @@
                     <ItemTemplate>
                         <div class="col-md-4 col-sm-6 mb-4">
                             <div class="card producto">
-                                <img src='<%# Eval("Imagen") %>' class="card-img-top" alt='<%# Eval("Nombre") %>' />
+                                <img src='<%# Eval("imagen") %>' class="card-img-top" alt='<%# Eval("nombre") %>' />
                                 <div class="card-body d-flex flex-column">
-                                    <h5 class="card-title"><%# Eval("Nombre") %></h5>
-                                    <p class="card-text"><%# Eval("Descripcion") %></p>
-                                    <p class="card-text"><strong>Precio: $<%# Eval("Precio") %></strong></p>
-                                    <p class="card-text"><strong>Stock: <%# Eval("Stock") %></strong></p>
+                                    <h5 class="card-title"><%# Eval("nombre") %></h5>
+                                    <p class="card-text"><%# Eval("informacion") %></p>
+                                    <p class="card-text"><strong>Precio: $<%# Eval("precio") %></strong></p>
+                                    <p class="card-text"><strong>Stock: <%# Eval("stock") %></strong></p>
                                     <button type="button" class="btn btn-primary mt-auto" 
-                                        <%# If(Eval("Stock") = 0, "disabled", "") %> 
-                                        onclick="AgregarAlCarrito('<%# Eval("ID") %>', '<%# Eval("Nombre") %>', '<%# Eval("Precio") %>', '<%# Eval("Imagen") %>');">
+                                        <%# If(Eval("stock") = 0, "disabled", "") %> 
+                                        onclick="AgregarAlCarrito('<%# Eval("id_consola") %>', '<%# Eval("nombre") %>', '<%# Eval("precio") %>', '<%# Eval("imagen") %>');">
                                         <i class="fas fa-cart-plus"></i> Añadir al Carrito
                                     </button>
-                                    <p class="text-danger" <%# If(Eval("Stock") = 0, "style='display:block;'", "style='display:none;'") %> >
+                                    <p class="text-danger" <%# If(Eval("stock") = 0, "style='display:block;'", "style='display:none;'") %> >
                                         No hay stock disponible
                                     </p>
                                 </div>
@@ -176,25 +193,27 @@
             </div>
         </div>
 
-        <div id="videojuegos" class="container">
+        <div id="videojuegos" class="container" style="display: none;">
         <h2>Videojuegos</h2>
         <div class="row">
             <asp:Repeater ID="Repeater2" runat="server">
                 <ItemTemplate>
                     <div class="col-md-4 col-sm-6 mb-4">
                         <div class="card producto">
-                            <img src='<%# Eval("Imagen") %>' class="card-img-top" alt='<%# Eval("Nombre") %>' />
+                            <img src='<%# Eval("imagen") %>' class="card-img-top" alt='<%# Eval("nombre") %>' />
                             <div class="card-body d-flex flex-column">
-                                <h5 class="card-title"><%# Eval("Nombre") %></h5>
-                                <p class="card-text"><%# Eval("Descripcion") %></p>
-                                <p class="card-text"><strong>Precio: $<%# Eval("Precio") %></strong></p>
-                                <p class="card-text"><strong>Stock: <%# Eval("Stock") %></strong></p>
+                                <h5 class="card-title"><%# Eval("nombre") %></h5>
+                                <p class="card-text"><%# Eval("informacion") %></p>
+                                <p class="card-text"><strong>Precio: $<%# Eval("precio") %></strong></p>
+                                <p class="card-text"><strong>Stock: <%# Eval("stock") %></strong></p>
+                                <p class="card-text"><strong>Genero: <%# Eval("genero") %></strong></p>
+                                <p class="card-text"><strong>Consola: <%# Eval("consola") %></strong></p>
                                 <button type="button" class="btn btn-primary mt-auto" 
-                                    <%# If(Eval("Stock") = 0, "disabled", "") %> 
-                                    onclick="AgregarAlCarrito('<%# Eval("ID") %>', '<%# Eval("Nombre") %>', '<%# Eval("Precio") %>', '<%# Eval("Imagen") %>');">
+                                    <%# If(Eval("stock") = 0, "disabled", "") %> 
+                                    onclick="AgregarAlCarrito('<%# Eval("id_videojuego") %>', '<%# Eval("nombre") %>', '<%# Eval("precio") %>', '<%# Eval("imagen") %>');">
                                     <i class="fas fa-cart-plus"></i> Añadir al Carrito
                                 </button>
-                                <p class="text-danger" <%# If(Eval("Stock") = 0, "style='display:block;'", "style='display:none;'") %> >
+                                <p class="text-danger" <%# If(Eval("stock") = 0, "style='display:block;'", "style='display:none;'") %> >
                                     No hay stock disponible
                                 </p>
                             </div>
@@ -223,6 +242,23 @@
                 document.getElementById("adminButton").style.display = "none"; // Ocultar el botón
             }
         };
+
+        function ShowTab(tab) {
+            // Ocultar todas las secciones
+            document.getElementById('consolas').style.display = 'none';
+            document.getElementById('videojuegos').style.display = 'none';
+            document.getElementById('tabConsolas').classList.remove('active');
+            document.getElementById('tabVideojuegos').classList.remove('active');
+
+            // Mostrar la sección seleccionada
+            if (tab === 'consolas') {
+                document.getElementById('consolas').style.display = 'block';
+                document.getElementById('tabConsolas').classList.add('active');
+            } else if (tab === 'videojuegos') {
+                document.getElementById('videojuegos').style.display = 'block';
+                document.getElementById('tabVideojuegos').classList.add('active');
+            }
+        }
 
         function AgregarAlCarrito(productId, productName, productPrice, productImage) {
         <% If Session("id_usuario") Is Nothing Then %>

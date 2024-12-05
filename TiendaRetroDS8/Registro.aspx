@@ -7,17 +7,43 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
     <style>
         body {
-            background-color: #f4f4f4;
+            min-height: 100vh;
+            background-color: #5C3131;
             font-family: 'Arial', sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        /* Animación de entrada */
+        @keyframes slideIn {
+            0% {
+                transform: translateY(50px);
+                opacity: 0;
+            }
+            100% {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        /* Animación del logo */
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
         }
 
         .register-card {
             max-width: 400px;
-            margin: 50px auto;
+            width: 400px;
             padding: 30px;
             border-radius: 10px;
             background-color: #ffffff;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            animation: slideIn 0.6s ease-out;
         }
 
         .register-card h2 {
@@ -28,14 +54,29 @@
         }
 
         .btn-primary {
-            background-color: #2C3E50;
-            border-color: #2C3E50;
+            background-color: #5C3131;
             font-weight: bold;
+            border-color: #5C3131;
+            transition: all 0.3s ease;
         }
 
         .btn-primary:hover {
-            background-color: #1A252F;
-            border-color: #1A252F;
+            background-color: #C06463;
+            border-color: #C06463;
+            transform: scale(1.05);
+        }
+
+        .btn-secondary {
+            background-color: #C06463;
+            font-weight: bold;
+            border-color: #C06463;
+            transition: all 0.3s ease;
+        }
+
+        .btn-secondary:hover {
+            background-color: #5C3131;
+            border-color: #5C3131;
+            transform: scale(1.05);
         }
 
         .form-group label {
@@ -48,20 +89,20 @@
             display: block;
             margin-top: 15px;
             color: #2C3E50;
+            transition: color 0.3s ease;
         }
 
         .login-link:hover {
             text-decoration: underline;
+            color: #3698a6;
         }
-        .btn-secondary {
-            background-color: #42A4BA;
-            border-color: #42A4BA;
-            font-weight: bold;
+        .img-logo{
+            text-align: center;
         }
-
-        .btn-secondary:hover {
-            background-color: #3698a6;
-            border-color: #3698a6;
+        .logo {
+            max-width: 150px;
+            margin-bottom: 20px;
+            animation: bounce 1.5s infinite;
         }
     </style>
 </head>
@@ -69,6 +110,9 @@
     <form id="form1" runat="server">
         <div class="container">
             <div class="register-card">
+                <div class="img-logo">
+                    <img src="Imagen/DondeMacre-sinfondo.png" alt="Logo de la Tienda de Videojuegos Retro" class="logo" />
+                </div>
                 <h2>Registro</h2>
                 <div class="form-group">
                     <label for="txtUsername">Usuario</label>
