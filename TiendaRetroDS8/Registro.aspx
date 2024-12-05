@@ -1,9 +1,9 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Login.aspx.vb" Inherits="TiendaRetroDS8.Login" %>
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Registro.aspx.vb" Inherits="TiendaRetroDS8.Registro" %>
 
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Iniciar Sesión</title>
+    <title>Registro</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
     <style>
         body {
@@ -11,7 +11,7 @@
             font-family: 'Arial', sans-serif;
         }
 
-        .login-card {
+        .register-card {
             max-width: 400px;
             margin: 50px auto;
             padding: 30px;
@@ -20,7 +20,7 @@
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
 
-        .login-card h2 {
+        .register-card h2 {
             color: #2C3E50;
             font-weight: bold;
             text-align: center;
@@ -43,17 +43,16 @@
             color: #2C3E50;
         }
 
-        .register-link {
+        .login-link {
             text-align: center;
             display: block;
             margin-top: 15px;
             color: #2C3E50;
         }
 
-        .register-link:hover {
+        .login-link:hover {
             text-decoration: underline;
         }
-
         .btn-secondary {
             background-color: #42A4BA;
             border-color: #42A4BA;
@@ -69,18 +68,22 @@
 <body>
     <form id="form1" runat="server">
         <div class="container">
-            <div class="login-card">
-                <h2>Iniciar Sesión</h2>
+            <div class="register-card">
+                <h2>Registro</h2>
                 <div class="form-group">
-                    <label for="txtEmail">Correo</label>
-                    <input type="text" id="txtEmail" runat="server" class="form-control" placeholder="Ingrese su correo" required />
+                    <label for="txtUsername">Usuario</label>
+                    <asp:TextBox ID="txtUsername" runat="server" class="form-control" placeholder="Ingrese su usuario" required />
+                </div>
+                <div class="form-group">
+                    <label for="txtEmail">Correo Electrónico</label>
+                    <asp:TextBox ID="txtEmail" runat="server" class="form-control" placeholder="Ingrese su correo electrónico" required />
                 </div>
                 <div class="form-group">
                     <label for="txtPassword">Contraseña</label>
-                    <input type="password" id="txtPassword" runat="server" class="form-control" placeholder="Ingrese su contraseña" required />
+                    <asp:TextBox ID="txtPassword" runat="server" TextMode="Password" class="form-control" placeholder="Ingrese su contraseña" required />
                 </div>
-                <button type="submit" class="btn btn-primary btn-block">Iniciar Sesión</button>
-                <a href="Registro.aspx" class="register-link">¿No tienes cuenta? Regístrate aquí</a>
+                <asp:Button ID="btnRegister" runat="server" Text="Registrar" CssClass="btn btn-primary btn-block" OnClick="btnRegister_Click" />
+                <a href="Login.aspx" class="login-link">¿Ya tienes cuenta? Inicia sesión aquí</a>
                 <a href="Catalogo.aspx" class="btn btn-secondary btn-block mt-3">Ir al Catálogo</a>
                 <asp:Label ID="lblError" runat="server" ForeColor="Red" />
             </div>

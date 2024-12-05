@@ -11,7 +11,7 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class Login
+Partial Public Class Catalogo
 
     '''<summary>
     '''Control form1.
@@ -23,29 +23,20 @@ Partial Public Class Login
     Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
 
     '''<summary>
-    '''Control txtEmail.
+    '''Control Repeater1.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents txtEmail As Global.System.Web.UI.HtmlControls.HtmlInputText
+    Protected WithEvents Repeater1 As Global.System.Web.UI.WebControls.Repeater
 
     '''<summary>
-    '''Control txtPassword.
+    '''Control Repeater2.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents txtPassword As Global.System.Web.UI.HtmlControls.HtmlInputPassword
-
-    '''<summary>
-    '''Control lblError.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents lblError As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents Repeater2 As Global.System.Web.UI.WebControls.Repeater
 End Class

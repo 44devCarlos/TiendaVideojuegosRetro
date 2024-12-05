@@ -5,14 +5,14 @@ Public Class Login
     Private tiendaRetroL As New TiendaRetroLogica()
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
         If IsPostBack Then
-            Dim username As String = Request.Form("txtUsername")
+            Dim email As String = Request.Form("txtEmail")
             Dim password As String = Request.Form("txtPassword")
 
             ' Validar usuario y obtener email, Id e IsAdmin
             Dim userData As Dictionary(Of String, Object) = Nothing
 
             Try
-                userData = tiendaRetroL.ValidarUsuario(username, password)
+                userData = tiendaRetroL.ValidarUsuario(email, password)
                 If userData IsNot Nothing Then
                     ' Guardar el Id de usuario, email e IsAdmin
                     Session("id_usuario") = userData("id_usuario") ' Guardar el Id en la sesión

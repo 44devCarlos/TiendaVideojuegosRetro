@@ -3,32 +3,16 @@
   "WorkspaceRootPath": "D:\\Universidad\\Desarrollo de Software VIII\\Semestral\\TiendaVideojuegosRetro\\TiendaRetroDS8\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|TiendaRetroDS8.vbproj|d:\\universidad\\desarrollo de software viii\\semestral\\tiendavideojuegosretro\\tiendaretrods8\\login.aspx.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|TiendaRetroDS8.vbproj|solutionrelative:login.aspx.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|TiendaRetroDS8.vbproj|d:\\universidad\\desarrollo de software viii\\semestral\\tiendavideojuegosretro\\tiendaretrods8\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|TiendaRetroDS8.vbproj|solutionrelative:login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|TiendaRetroDS8.vbproj|d:\\universidad\\desarrollo de software viii\\semestral\\tiendavideojuegosretro\\tiendaretrods8\\l\u00F3gica\\tiendaretrologica.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|TiendaRetroDS8.vbproj|solutionrelative:l\u00F3gica\\tiendaretrologica.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|TiendaRetroDS8.vbproj|d:\\universidad\\desarrollo de software viii\\semestral\\tiendavideojuegosretro\\tiendaretrods8\\catalogo.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|TiendaRetroDS8.vbproj|solutionrelative:catalogo.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|TiendaRetroDS8.vbproj|D:\\Universidad\\Desarrollo de Software VIII\\Semestral\\TiendaVideojuegosRetro\\TiendaRetroDS8\\datos\\tiendaretrodb.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|TiendaRetroDS8.vbproj|solutionrelative:datos\\tiendaretrodb.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|TiendaRetroDS8.vbproj|d:\\universidad\\desarrollo de software viii\\semestral\\tiendavideojuegosretro\\tiendaretrods8\\paginaprincipal.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|TiendaRetroDS8.vbproj|solutionrelative:paginaprincipal.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|TiendaRetroDS8.vbproj|d:\\universidad\\desarrollo de software viii\\semestral\\tiendavideojuegosretro\\tiendaretrods8\\tiendaretro.aspx.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|TiendaRetroDS8.vbproj|solutionrelative:tiendaretro.aspx.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|TiendaRetroDS8.vbproj|D:\\Universidad\\Desarrollo de Software VIII\\Semestral\\TiendaVideojuegosRetro\\TiendaRetroDS8\\tiendaretro.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|TiendaRetroDS8.vbproj|solutionrelative:tiendaretro.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|TiendaRetroDS8.vbproj|D:\\Universidad\\Desarrollo de Software VIII\\Semestral\\TiendaVideojuegosRetro\\TiendaRetroDS8\\l\u00F3gica\\tiendaretrologica.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|TiendaRetroDS8.vbproj|solutionrelative:l\u00F3gica\\tiendaretrologica.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,88 +22,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Login.aspx.vb",
-              "DocumentMoniker": "D:\\Universidad\\Desarrollo de Software VIII\\Semestral\\TiendaVideojuegosRetro\\TiendaRetroDS8\\Login.aspx.vb",
-              "RelativeDocumentMoniker": "Login.aspx.vb",
-              "ToolTip": "D:\\Universidad\\Desarrollo de Software VIII\\Semestral\\TiendaVideojuegosRetro\\TiendaRetroDS8\\Login.aspx.vb",
-              "RelativeToolTip": "Login.aspx.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-12-05T01:21:33.185Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Login.aspx",
-              "DocumentMoniker": "D:\\Universidad\\Desarrollo de Software VIII\\Semestral\\TiendaVideojuegosRetro\\TiendaRetroDS8\\Login.aspx",
-              "RelativeDocumentMoniker": "Login.aspx",
-              "ToolTip": "D:\\Universidad\\Desarrollo de Software VIII\\Semestral\\TiendaVideojuegosRetro\\TiendaRetroDS8\\Login.aspx",
-              "RelativeToolTip": "Login.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-12-05T01:16:02.932Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TiendaRetro.aspx.vb",
-              "DocumentMoniker": "D:\\Universidad\\Desarrollo de Software VIII\\Semestral\\TiendaVideojuegosRetro\\TiendaRetroDS8\\TiendaRetro.aspx.vb",
-              "RelativeDocumentMoniker": "TiendaRetro.aspx.vb",
-              "ToolTip": "D:\\Universidad\\Desarrollo de Software VIII\\Semestral\\TiendaVideojuegosRetro\\TiendaRetroDS8\\TiendaRetro.aspx.vb",
-              "RelativeToolTip": "TiendaRetro.aspx.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-12-04T23:21:18.638Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TiendaRetro.aspx",
-              "DocumentMoniker": "D:\\Universidad\\Desarrollo de Software VIII\\Semestral\\TiendaVideojuegosRetro\\TiendaRetroDS8\\TiendaRetro.aspx",
-              "RelativeDocumentMoniker": "TiendaRetro.aspx",
-              "ToolTip": "D:\\Universidad\\Desarrollo de Software VIII\\Semestral\\TiendaVideojuegosRetro\\TiendaRetroDS8\\TiendaRetro.aspx",
-              "RelativeToolTip": "TiendaRetro.aspx",
+              "DocumentIndex": 0,
+              "Title": "Catalogo.aspx",
+              "DocumentMoniker": "D:\\Universidad\\Desarrollo de Software VIII\\Semestral\\TiendaVideojuegosRetro\\TiendaRetroDS8\\Catalogo.aspx",
+              "RelativeDocumentMoniker": "Catalogo.aspx",
+              "ToolTip": "D:\\Universidad\\Desarrollo de Software VIII\\Semestral\\TiendaVideojuegosRetro\\TiendaRetroDS8\\Catalogo.aspx",
+              "RelativeToolTip": "Catalogo.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-12-04T22:52:28.296Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PaginaPrincipal.aspx",
-              "DocumentMoniker": "D:\\Universidad\\Desarrollo de Software VIII\\Semestral\\TiendaVideojuegosRetro\\TiendaRetroDS8\\PaginaPrincipal.aspx",
-              "RelativeDocumentMoniker": "PaginaPrincipal.aspx",
-              "ToolTip": "D:\\Universidad\\Desarrollo de Software VIII\\Semestral\\TiendaVideojuegosRetro\\TiendaRetroDS8\\PaginaPrincipal.aspx",
-              "RelativeToolTip": "PaginaPrincipal.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-12-04T22:48:54.178Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TiendaRetroDB.vb",
-              "DocumentMoniker": "D:\\Universidad\\Desarrollo de Software VIII\\Semestral\\TiendaVideojuegosRetro\\TiendaRetroDS8\\Datos\\TiendaRetroDB.vb",
-              "RelativeDocumentMoniker": "Datos\\TiendaRetroDB.vb",
-              "ToolTip": "D:\\Universidad\\Desarrollo de Software VIII\\Semestral\\TiendaVideojuegosRetro\\TiendaRetroDS8\\Datos\\TiendaRetroDB.vb",
-              "RelativeToolTip": "Datos\\TiendaRetroDB.vb",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwBgAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-12-04T23:14:30.029Z",
+              "WhenOpened": "2024-12-05T02:38:54.335Z",
               "EditorCaption": ""
             },
             {
@@ -130,9 +49,22 @@
               "RelativeDocumentMoniker": "L\u00F3gica\\TiendaRetroLogica.vb",
               "ToolTip": "D:\\Universidad\\Desarrollo de Software VIII\\Semestral\\TiendaVideojuegosRetro\\TiendaRetroDS8\\L\u00F3gica\\TiendaRetroLogica.vb",
               "RelativeToolTip": "L\u00F3gica\\TiendaRetroLogica.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-12-05T00:26:04.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TiendaRetroDB.vb",
+              "DocumentMoniker": "D:\\Universidad\\Desarrollo de Software VIII\\Semestral\\TiendaVideojuegosRetro\\TiendaRetroDS8\\Datos\\TiendaRetroDB.vb",
+              "RelativeDocumentMoniker": "Datos\\TiendaRetroDB.vb",
+              "ToolTip": "D:\\Universidad\\Desarrollo de Software VIII\\Semestral\\TiendaVideojuegosRetro\\TiendaRetroDS8\\Datos\\TiendaRetroDB.vb",
+              "RelativeToolTip": "Datos\\TiendaRetroDB.vb",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwCYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-12-04T23:14:30.029Z",
               "EditorCaption": ""
             }
           ]
