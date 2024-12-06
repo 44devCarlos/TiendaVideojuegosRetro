@@ -1,0 +1,443 @@
+
+/* BEGIN EXTERNAL SOURCE */
+
+    body {
+        display: flex;
+        min-height: 100vh;
+        font-family: 'Roboto', sans-serif;
+        background-color: #f4f4f4;
+    }
+
+    header {
+        background-color: #5C3131;
+        color: white;
+        padding: 15px;
+        text-align: center;
+        width: 100vw;
+        border-bottom: 4px solid #5C3131;
+    }
+
+    header img {
+        height: 100px;  /* Aumenta el tamaño del logo */
+        margin-right: 10px;
+        border-radius: 5px;
+    }
+
+    header h3 {
+        margin: 0;
+        font-weight: bold;
+        text-align: left;  /* Alinea el texto hacia la izquierda */
+    }
+
+    header h1 {
+        margin: 0;
+        font-weight: bold;
+    }
+
+    .navbar {
+        margin-bottom: 20px;
+    }
+
+    .navbar .nav-link {
+    color: #5C3131 !important; /* Color inicial */
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease; /* Transición suave para color y transformación */
+    }
+
+    .navbar .nav-link:hover {
+        color: #C06463 !important; /* Cambia el color al pasar el cursor */
+        transform: scale(1.1); /* Aumenta ligeramente el tamaño */
+    }
+    .tabs {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .tab {
+    padding: 10px 20px;
+    background-color: #ccc;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 5px; /* Opcional: bordes redondeados */
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Suaviza cambios */
+    }
+
+    .tab:hover {
+        background-color: #C06463; /* Cambia el fondo al pasar el cursor */
+        color: #fff; /* Cambia el color del texto */
+        transform: scale(1.1); /* Amplía ligeramente la pestaña */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Añade una 
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        background: white;
+        height: 650px;
+        min-height: 550px;
+        max-height: auto;
+        overflow: hidden;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .card:hover {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra mayor al hacer hover */
+        transform: scale(1.05); /* Expande la tarjeta ligeramente */
+    }
+
+    .card:active {
+        transform: scale(0.98); /* Reduce la tarjeta al hacer clic */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Sombra más marcada al estar activa */
+    }
+
+    .card .card-body {
+        flex-grow: 1;
+        padding: 15px;
+        overflow: hidden;
+    }
+
+    .card img {
+        transition: transform 0.3s ease-in-out; /* Transición de la imagen */
+        object-fit: cover;
+        width: 100%;
+        height: auto;
+        max-height: 100%;
+    }
+
+    .card.producto:hover img {
+        transform: scale(1.1); /* Solo escala la imagen, no el contenedor */
+    }
+
+    .card h5{
+        font-weight: bold;
+    }
+
+    .btn-primary {
+        background-color: #5C3131;
+        font-weight: bold;
+        border-color: #5C3131;
+        transition: all 0.3s ease;
+    }
+
+    .btn-primary:hover {
+        background-color: #C06463;
+        border-color: #C06463;
+        transform: scale(1.05);
+    }
+
+    .card.producto img {
+        max-height: 200px;
+        object-fit: cover;
+        border-radius: 5px;
+        margin-bottom: 15px;
+        transition: transform 0.3s ease-in-out, max-height 0.3s ease-in-out;
+    }
+    
+    .text-danger {
+        font-weight: bold;
+    }
+
+/* END EXTERNAL SOURCE */
+
+/* BEGIN EXTERNAL SOURCE */
+li {
+display:none;
+}
+/* END EXTERNAL SOURCE */
+
+/* BEGIN EXTERNAL SOURCE */
+div {
+display: none;
+}
+/* END EXTERN
+/* BEGIN EXTERNAL SOURCE */
+div {
+display: none;
+}
+/* END EXTERN
+/* BEGIN EXTERNAL SOURCE */
+div {
+display: none;
+}
+/* END EXTERNAL SOURCE */
+AL SOURCE */
+AL SOURCE */
+
+/* BEGIN EXTERNAL SOURCE */
+
+    body {
+        display: flex;
+        min-height: 100vh;
+        font-family: 'Roboto', sans-serif;
+        background-color: #f4f4f4;
+    }
+
+    header {
+        background-color: #5C3131;
+        color: white;
+        padding: 15px;
+        text-align: center;
+        width: 100vw;
+        border-bottom: 4px solid #5C3131;
+    }
+
+    header img {
+    height: 100px;  /* Aumenta el tamaño del logo */
+    margin-right: 10px;
+    border-radius: 5px;
+    }
+
+    header h3 {
+        margin: 0;
+        font-weight: bold;
+        text-align: left;  /* Alinea el texto hacia la izquierda */
+    }
+
+    header h1 {
+        margin: 0;
+        font-weight: bold;
+    }
+
+    .navbar {
+        margin-bottom: 20px;
+    }
+
+    .navbar .nav-link {
+    color: #5C3131 !important; /* Color inicial */
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease; /* Transición suave para color y transformación */
+    }
+
+    .navbar .nav-link:hover {
+        color: #C06463 !important; /* Cambia el color al pasar el cursor */
+        transform: scale(1.1); /* Aumenta ligeramente el tamaño */
+    }
+    .tabs {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .tab {
+    padding: 10px 20px;
+    background-color: #ccc;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 5px; /* Opcional: bordes redondeados */
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Suaviza cambios */
+    }
+
+    .tab:hover {
+        background-color: #C06463; /* Cambia el fondo al pasar el cursor */
+        color: #fff; /* Cambia el color del texto */
+        transform: scale(1.1); /* Amplía ligeramente la pestaña */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Añade una sombra */
+    }
+
+    .tab.active {
+        background-color: #C06463;
+        color: #fff;
+    }
+
+    h2 {
+        color: #2C3E50;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        background: white;
+        height: auto;
+        min-height: 550px;
+        max-height: 650px;
+        overflow: hidden;
+    }
+    .card:hover {
+        height: auto; /* Permite que se adapte al contenido */
+        max-height: auto; /* Limita la altura máxima al expandirse */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Mayor sombra al hacer hover */
+    }
+    .card .card-body {
+        flex-grow: 1; /* Permite que el contenido se expanda uniformemente */
+        padding: 15px;
+        overflow: hidden; /* Previene desbordamientos */
+    }
+    .card.producto:hover img {
+        transform: scale(1.1);
+        object-fit: cover;
+        max-height: 100%;
+        overflow: hidden;
+        transition: transform 0.3s ease-in-out, max-height 0.3s ease-in-out;
+    }
+    .card h5{
+        font-weight: bold;
+    }
+
+    .btn-primary {
+        background-color: #5C3131;
+        font-weight: bold;
+        border-color: #5C3131;
+        transition: all 0.3s ease;
+    }
+
+    .btn-primary:hover {
+        background-color: #C06463;
+        border-color: #C06463;
+        transform: scale(1.05);
+    }
+
+    .card.producto img {
+        max-height: 200px;
+        object-fit: cover;
+        border-radius: 5px;
+        margin-bottom: 5px;
+        transition: transform 0.3s ease-in-out, max-height 0.3s ease-in-out;
+    }
+    
+    
+
+    .text-danger {
+        font-weight: bold;
+    }
+
+/* END EXTERNAL SOURCE */
+
+/* BEGIN EXTERNAL SOURCE */
+li {
+display:none;
+}
+/* END EXTERNAL SOURCE */
+
+/* BEGIN EXTERNAL SOURCE */
+div {
+display: none;
+}
+/* END EXTERNAL SOURCE */
+
+/* BEGIN EXTERNAL SOURCE */
+
+    body {
+        font-family: 'Georgia', serif;
+        background-color: #f4f4f4;
+    }
+
+    header {
+        background-color: #2C3E50;
+        color: white;
+        padding: 15px;
+        text-align: center;
+        border-bottom: 4px solid #1A252F;
+    }
+
+    header img {
+    height: 100px;  /* Aumenta el tamaño del logo */
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+    header h3 {
+        margin: 0;
+        font-weight: bold;
+        text-align: left;  /* Alinea el texto hacia la izquierda */
+    }
+
+    header h1 {
+        margin: 0;
+        font-weight: bold;
+    }
+
+    .navbar {
+        margin-bottom: 20px;
+    }
+
+    .navbar .nav-link {
+        color: #2C3E50 !important;
+        font-weight: bold;
+    }
+    .tabs {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+    .tab {
+        padding: 10px 20px;
+        background-color: #ccc;
+        cursor: pointer;
+        margin-right: 10px;
+    }
+
+    .tab.active {
+        background-color: #333;
+        color: #fff;
+    }
+
+    h2 {
+        color: #2C3E50;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    .card {
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        background: white;
+    }
+
+    .card-body {
+        padding: 15px;
+    }
+
+    .btn-primary {
+        background-color: #2C3E50;
+        border-color: #2C3E50;
+        font-weight: bold;
+    }
+
+    .btn-primary:hover {
+        background-color: #1A252F;
+        border-color: #1A252F;
+    }
+
+    .card.producto img {
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out, max-height 0.3s ease-in-out;
+    }
+    
+    .card.producto:hover img {
+        transform: scale(1.1);
+        max-height: 100%;
+        transition: transform 0.3s ease-in-out, max-height 0.3s ease-in-out;
+    }
+
+    .text-danger {
+        font-weight: bold;
+    }
+
+/* END EXTERNAL SOURCE */
+
+/* BEGIN EXTERNAL SOURCE */
+li {
+display:none;
+}
+/* END EXTERNAL SOURCE */
+
+/* BEGIN EXTERNAL SOURCE */
+div {
+display: none;
+}
+/* END EXTERNAL SOURCE */

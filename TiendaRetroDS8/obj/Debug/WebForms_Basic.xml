@@ -37,6 +37,303 @@ TiendaRetroDS8
  Devuelve el objeto de registro Asp.
  </summary>
 </member>
+<member name="F:TiendaRetroDS8.Admin._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TiendaRetroDS8.Admin._txtNombreConsola">
+<summary>
+Control txtNombreConsola.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TiendaRetroDS8.Admin._txtMarcaConsola">
+<summary>
+Control txtMarcaConsola.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TiendaRetroDS8.Admin._txtPrecioConsola">
+<summary>
+Control txtPrecioConsola.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TiendaRetroDS8.Admin._litError">
+<summary>
+Control litError.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TiendaRetroDS8.Admin._txtStockConsola">
+<summary>
+Control txtStockConsola.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TiendaRetroDS8.Admin._txtAnioLanzamientoConsola">
+<summary>
+Control txtAnioLanzamientoConsola.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TiendaRetroDS8.Admin._txtInformacionConsola">
+<summary>
+Control txtInformacionConsola.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TiendaRetroDS8.Admin._txtImagenConsola">
+<summary>
+Control txtImagenConsola.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TiendaRetroDS8.Admin._btnAgregarConsola">
+<summary>
+Control btnAgregarConsola.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TiendaRetroDS8.Admin._txtNombreVideojuego">
+<summary>
+Control txtNombreVideojuego.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TiendaRetroDS8.Admin._txtGeneroVideojuego">
+<summary>
+Control txtGeneroVideojuego.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TiendaRetroDS8.Admin._txtPrecioVideojuego">
+<summary>
+Control txtPrecioVideojuego.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TiendaRetroDS8.Admin._txtInformacionVideojuego">
+<summary>
+Control txtInformacionVideojuego.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TiendaRetroDS8.Admin._txtStockVideojuego">
+<summary>
+Control txtStockVideojuego.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TiendaRetroDS8.Admin._ddlConsolas">
+<summary>
+Control ddlConsolas.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TiendaRetroDS8.Admin._txtImagenVideojuego">
+<summary>
+Control txtImagenVideojuego.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TiendaRetroDS8.Admin._btnAgregarVideojuego">
+<summary>
+Control btnAgregarVideojuego.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TiendaRetroDS8.Admin._btnGoToCatalog">
+<summary>
+Control btnGoToCatalog.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TiendaRetroDS8.Admin._gvConsolas">
+<summary>
+Control gvConsolas.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TiendaRetroDS8.Admin._gvVideojuegos">
+<summary>
+Control gvVideojuegos.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TiendaRetroDS8.Admin._GridView1">
+<summary>
+Control GridView1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TiendaRetroDS8.Admin._GridView2">
+<summary>
+Control GridView2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TiendaRetroDS8.Admin._GridView3">
+<summary>
+Control GridView3.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TiendaRetroDS8.Admin._GridView4">
+<summary>
+Control GridView4.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TiendaRetroDS8.AgregarCarrito._form1">
+<summary>
+control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TiendaRetroDS8.Carrito._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TiendaRetroDS8.Carrito._RepeaterCarrito">
+<summary>
+Control RepeaterCarrito.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TiendaRetroDS8.Carrito._lblMensaje">
+<summary>
+Control lblMensaje.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TiendaRetroDS8.Carrito._totalCarrito">
+<summary>
+Control totalCarrito.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TiendaRetroDS8.Carrito._btnVolver">
+<summary>
+Control btnVolver.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TiendaRetroDS8.Carrito._btnFinalizar">
+<summary>
+Control btnFinalizar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TiendaRetroDS8.Carrito._lblCarritoVacio">
+<summary>
+Control lblCarritoVacio.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:TiendaRetroDS8.Catalogo._form1">
 <summary>
 Control form1.
@@ -49,6 +346,33 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:TiendaRetroDS8.Catalogo._Repeater1">
 <summary>
 Control Repeater1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TiendaRetroDS8.Catalogo._ScriptManager1">
+<summary>
+Control ScriptManager1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TiendaRetroDS8.Catalogo._ddlConsolas">
+<summary>
+Control ddlConsolas.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TiendaRetroDS8.Catalogo._UpdatePanelVideojuegos">
+<summary>
+Control UpdatePanelVideojuegos.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -163,18 +487,9 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:TiendaRetroDS8.TiendaRetro._form1">
+<member name="F:TiendaRetroDS8.VaciarCarrito._form1">
 <summary>
-Control form1.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:TiendaRetroDS8.TiendaRetro._RepeaterCatalogo">
-<summary>
-Control RepeaterCatalogo.
+control form1.
 </summary>
 <remarks>
 Campo generado automáticamente.

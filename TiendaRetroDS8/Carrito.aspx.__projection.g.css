@@ -1,0 +1,67 @@
+
+/* BEGIN EXTERNAL SOURCE */
+
+        /* Estilo global para el fondo de la página */
+        body {
+            background-color: #f5f5f5;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        /* Estilo para el contenedor principal donde se mostrará el carrito */
+        .container {
+            background-color: #fff; /* Fondo blanco */
+            border-radius: 10px; /* Bordes redondeados */
+            padding: 30px; /* Espaciado interno */
+            margin-top: 30px; /* Espaciado superior */
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+        }
+        
+        /* Estilo para el título principal */
+        h1 {
+            color: #42A4BA; /* Color azul */
+        }
+
+        /* Estilo para los botones de eliminar, con fondo rojo */
+        .btn-danger {
+            background-color: #ff4d4d;
+            border-color: #ff4d4d;
+        }
+
+        /* Efecto hover para el botón de eliminar, cambia a un rojo más oscuro */
+        .btn-danger:hover {
+            background-color: #e63939;
+            border-color: #e63939;
+        }
+
+        /* Estilo para los botones de finalizar compra y regresar al catálogo */
+        .btn-success, .btn-primary {
+            font-weight: bold; /* Texto en negrita */
+        }
+
+        /* Estilo para las filas de los productos, con una línea debajo */
+        .row {
+            border-bottom: 1px solid #ddd; /* Línea gris debajo */
+            padding-bottom: 15px; /* Espaciado inferior */
+            margin-bottom: 15px; /* Espaciado inferior */
+        }
+
+        /* El último elemento no tendrá borde inferior */
+        .row:last-child {
+            border-bottom: none;
+        }
+
+        /* Estilo para las imágenes de los productos */
+        img {
+            border: 1px solid #ddd; /* Borde gris alrededor de la imagen */
+            border-radius: 5px; /* Bordes redondeados */
+            padding: 5px; /* Espaciado interno */
+            background-color: #f9f9f9; /* Fondo gris claro */
+        }
+    
+/* END EXTERNAL SOURCE */
+
+/* BEGIN EXTERNAL SOURCE */
+img {
+max-height: 100px;
+}
+/* END EXTERNAL SOURCE */

@@ -8,7 +8,10 @@
     <title>Tienda de Videojuegos Retro</title>
     <style>
         body {
-            font-family: 'Arial', sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            font-family: 'Roboto', sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f4f7fa;
@@ -16,28 +19,14 @@
         }
 
         .header {
-            background-color: #0066cc;
+            background-color: #5C3131;
             color: white;
             text-align: center;
             padding: 20px 0;
             font-size: 2.5rem;
         }
-
-        .hero {
-            background-image: url('https://via.placeholder.com/1200x400?text=Bienvenidos+a+la+Tienda+Retro');
-            background-size: cover;
-            background-position: center;
-            height: 400px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: white;
-            font-size: 2rem;
-            font-weight: bold;
-            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
-        }
-
         .container {
+            flex: 1;
             max-width: 1200px;
             margin: 20px auto;
             padding: 20px;
@@ -49,18 +38,40 @@
         .features {
             display: flex;
             flex-wrap: wrap;
+            width: 250px;
             gap: 20px;
-            justify-content: space-between;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
         }
 
         .feature {
             flex: 1;
-            min-width: 250px;
+            background-color: #5C3131;
+            width: 30px;
             text-align: center;
             padding: 20px;
             border: 1px solid #ddd;
             border-radius: 10px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .feature:hover {
+            background-color: #C06463;
+            border-color: #C06463;
+            transform: scale(1.05);
+        }
+        .info{
+            display: flex;
+            text-align: center;
+            padding: auto;
+            display: flex;
+        }
+        .info .img-logos {
+            justify-content: flex-start;
+            margin: 0 20px /* Espacio entre la imagen y el texto */
+        }
+        .info p{
+            margin-bottom: 90px;
         }
 
         .feature img {
@@ -69,7 +80,7 @@
         }
 
         .footer {
-            background-color: #333;
+            background-color: #5C3131;
             color: white;
             text-align: center;
             padding: 15px 0;
@@ -77,27 +88,47 @@
         }
 
         a {
-            color: #0066cc;
+            color: white;
             text-decoration: none;
             font-weight: bold;
         }
 
-        a:hover {
-            text-decoration: underline;
-        }
     </style>
 </head>
 <body>
     <div class="header">
         Bienvenidos a la Tienda de Videojuegos Retro
     </div>
-
-    <div class="hero">
-        ¡Revive la magia de los videojuegos clásicos!
-    </div>
-
     <div class="container">
-        <!--Boton que redirige a inicio de nuestra tienda-->
+        <!-- Información de la universidad -->
+        <div class="info">
+            <div class="img-logos">
+            <img src="./Imagen/LogoUTP.png" alt="Logo Izquierda">
+            </div>
+            <div>
+                <h1>UNIVERSIDAD TECNOLÓGICA DE PANAMÁ</h1>
+                <h2>FACULTAD DE INGENIERÍA DE SISTEMAS COMPUTACIONALES</h2>
+                <h3>LIC. EN DESARROLLO DE SOFTWARE</h3>
+                <p><strong>DESARROLLO DE SOFTWARE VIII</strong></p>
+                <p>
+                    <strong>Estudiantes:</strong><br><br>
+                    JOSÉ MACRE<br>
+                    CARLOS RODRÍGUEZ<br>
+                    JAIDER RICO<br>
+                    DIDIER VILLALAZ
+                </p>
+                <p>
+                    <strong>Profesor:</strong><br><br>
+                    RODRIGO YANGÜEZ
+                </p>
+                <p><strong>6 DE DICIEMBRE DE 2024</strong></p>
+                <p><strong>II SEMESTRE 2024</strong></p>
+            </div>
+            <div class="img-logos">
+                <img src="./Imagen/LogoFISC.png" alt="Logo Derecha">
+            </div>
+        </div>
+        <!-- Botón que redirige a inicio de nuestra tienda -->
         <div class="features">
             <div class="feature">
                 <a href="Login.aspx">Ir a Inicio</a>
@@ -106,7 +137,7 @@
     </div>
 
     <div class="footer">
-        © 2024 Tienda de Videojuegos Retro. Todos los derechos reservados.
+        Examen Semestral de Desarollo de Software VIII.
     </div>
 </body>
 </html>

@@ -39,6 +39,110 @@
             border-radius: 10px;
             background-color: #ffffff;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            animation: slideIn 0.6s ease-out;
+        }
+
+        .login-card h2 {
+            color: #2C3E50;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .btn-primary {
+            background-color: #5C3131;
+            font-weight: bold;
+            border-color: #5C3131;
+            transition: all 0.3s ease;
+        }
+
+        .btn-primary:hover {
+            background-color: #C06463;
+            border-color: #C06463;
+            transform: scale(1.05);
+        }
+
+        .btn-secondary {
+            background-color: #C06463;
+            font-weight: bold;
+            border-color: #C06463;
+            transition: all 0.3s ease;
+        }
+
+        .btn-secondary:hover {
+            background-color: #5C3131;
+            border-color: #5C3131;
+            transform: scale(1.05);
+        }
+
+        .form-group label {
+            font-weight: bold;
+            color: #2C3E50;
+        }
+
+        .register-link {
+            text-align: center;
+            display: block;
+            margin-top: 15px;
+            color: #2C3E50;
+            transition: color 0.3s ease;
+        }
+
+        .register-link:hover {
+            text-decoration: underline;
+            color: #3698a6;
+        }
+        .img-logo{
+            text-align: center;
+        }
+        .logo {
+            max-width: 150px;
+            margin-bottom: 20px;
+            animation: bounce 1.5s infinite;
+        }
+    
+/* END EXTERNAL SOURCE */
+
+/* BEGIN EXTERNAL SOURCE */
+
+        body {
+            min-height: 100vh;
+            background-color: #5C3131;
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Animación de entrada */
+        @keyframes slideIn {
+            0% {
+                transform: translateY(50px);
+                opacity: 0;
+            }
+            100% {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        /* Animación del logo */
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
+        .login-card {
+            max-width: 400px;
+            width: 400px;
+            padding: 30px;
+            border-radius: 10px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             text-align: center;
             animation: slideIn 0.6s ease-out;
         }

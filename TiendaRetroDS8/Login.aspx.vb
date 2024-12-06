@@ -15,7 +15,7 @@ Public Class Login
                 userData = tiendaRetroL.ValidarUsuario(email, password)
                 If userData IsNot Nothing Then
                     ' Guardar el Id de usuario, email e IsAdmin
-                    Session("id_usuario") = userData("id_usuario") ' Guardar el Id en la sesión
+                    Session("idUsuario") = userData("idUsuario") ' Guardar el Id en la sesión
                     Session("email") = userData("email") ' Guardar el email en la sesión
                     Session("rol") = userData("rol") ' Guardar el estado de IsAdmin en la sesión
 
